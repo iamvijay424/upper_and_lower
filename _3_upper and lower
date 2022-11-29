@@ -1,0 +1,14 @@
+def count(str):
+    count1=0
+    count2=0
+    for i in str:
+        if i.isupper():
+            count1+=1
+        elif i.islower():
+            count2+=1
+    print('upper case letter:',count1)
+    print('lower case letter:',count2)
+
+
+string=input('enter the string:')
+print(count(string))
